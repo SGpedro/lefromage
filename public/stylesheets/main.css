@@ -1,0 +1,26 @@
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    width: 75%;
+}
+
+p{
+    width: 65%;
+    margin: 15px 50px;
+    text-align: justify;
+    letter-spacing: .05em;
+}
+
+.colunas{
+    margin: 15px 147px;
+}
+
+.img_queijo{
+    width: 150px;
+    height: 150px;
+}
+
+.caption{
+    text-align: center; 
+}
