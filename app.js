@@ -16,14 +16,6 @@ app.get("/produtos", function(req, res){
     res.render("produtos");
 });
 
-app.get("/receitas", function(req, res){
-    res.render("receita");
-});
-
-app.get("/ondenosencontrar", function(req, res){
-    res.render("ondeencontrar");
-});
-
 app.get("/contato", function(req, res){
     res.render("contato");
 });

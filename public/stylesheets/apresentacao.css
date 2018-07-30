@@ -1,0 +1,22 @@
+p{
+   font-size: 17px; 
+}
+
+#sub-header{
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.imagens{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.paragrafos{
+    margin-top: 60px;
+    
+}
