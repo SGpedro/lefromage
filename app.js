@@ -16,6 +16,10 @@ app.get("/produtos", function(req, res){
     res.render("produtos");
 });
 
+app.get("/ondenosencontrar", function(req, res){
+    res.render("localizacao");
+});
+
 app.get("/contato", function(req, res){
     res.render("contato");
 });

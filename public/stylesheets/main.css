@@ -3,13 +3,32 @@ hr{
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
     width: 75%;
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family:'Conv_FREESCPT';
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 33px;
+}
+
+h4{
+    font-size: 36px;
 }
 
 p{
-    width: 65%;
-    margin: 15px 50px;
-    text-align: justify;
+    text-align: center;
     letter-spacing: .05em;
+    margin-left: 68%;
+    width: 80%;
+    font-family:'Conv_FREESCPT';
+    font-size: 27px;
 }
 
 #logo{
@@ -20,9 +39,6 @@ p{
     width: 30%;
 }
 
-.colunas{
-    margin: 15px 147px;
-}
 
 .thumbnail{
     width: 300px; 
@@ -57,11 +73,6 @@ p{
     height: 200px;
     width: 200px;
     margin-left: 37%;
-}
-
-body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png");
-  background-repeat: no-repeat;
-  background-size: 10% 100%;
-  background-position: 20px;
+    font-family:'Conv_FREESCPT';
+    font-size: 24px;
 }
