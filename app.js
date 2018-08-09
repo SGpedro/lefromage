@@ -29,6 +29,14 @@ app.get("/massafresca", function(req, res){
     res.render("queijos/massafresca");
 });
 
+app.get("/massamole", function(req, res){
+    res.render("queijos/massamole");
+});
+
+app.get("/massasemidura", function(req, res){
+    res.render("queijos/massasemidura");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("server is listening"); 
 });
