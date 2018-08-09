@@ -25,6 +25,10 @@ app.get("/contato", function(req, res){
     res.render("contato");
 });
 
+app.get("/massafresca", function(req, res){
+    res.render("queijos/massafresca");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("server is listening"); 
 });
