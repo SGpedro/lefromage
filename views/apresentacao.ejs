@@ -5,14 +5,20 @@
 <div class="container">
     <div class="row">
         <div class="page-header"> <h1><b>Le Fromage</b></h1> </div>
-        <p id="sub-header"> Tudo começoou com a nossa convivencia com os franceses nos mais de 10 anos em que moramos naquele pais magnifico, onde o queijo faz parte do dia à dia das familias. Em especial, o queijo de cabra esta presente em quase todos os pratos e momentos. Foram quase dois anos de cursos e trabalhos em fazendas e laticinios na França, alem obviamente da ajuda dos mestre queijeiros para importar este "savoir faire" e concretizar um sonho de fabricar no Brasil. </p>
+        <p id="sub-header"> Tudo começou com a nossa convivencia com os franceses nos mais de 10 anos em que moramos naquele pais magnifico, onde o queijo faz parte do dia à dia das familias. Em especial, o queijo de cabra esta presente em quase todos os pratos e momentos. Foram quase dois anos de cursos e trabalhos em fazendas e laticinios na França, alem obviamente da ajuda dos mestre queijeiros para importar este "savoir faire" e concretizar um sonho de fabricar no Brasil. </p>
     </div>
     
     <div class="row">
-        <div class="col-md-5"> <img class="imagens" src="https://i.imgur.com/Fww0dyP.png"></div>
+        <div class="slideshow-container">
+            <div class="mySlides "><div class="col-md-5"><img class="imagens animated fadeIn" src="apresentacao/lendo.jpg"></div> </div>
+            <div class="mySlides"> <div class="col-md-5"><img class="imagens animated fadeIn" src="apresentacao/moldando.jpg"></div> </div>
+        </div>
+        
+        
         <div class="col-md-7">
-            <p class="paragrafos">
-                Quisque et lacus id tortor pharetra cursus. Vestibulum tristique metus quis ipsum semper, vitae fermentum neque tempus. Aenean eleifend at enim ac pellentesque. Mauris blandit felis vel ultrices tincidunt. Aenean quis euismod lectus. Nulla egestas odio vitae est auctor tristique. Aenean eu maximus ante. Phasellus consectetur eget nibh eget pulvinar. Nam sit amet luctus ex.
+            <p class="paragrafos">  Nossa fabricação de queijos segue o processo artesanal idêntico ao francês .
+Adquirimos os conhecimentos através de vários cursos e estágios realizados nas queijarias artesanais francesas , localizadas na região de Poitou-Charentes onde se localiza uma grande parte da fabricação de queijo de cabra, tivemos também a vinda de um “maitre fromager” que veio nos ajudar no início da fabricação.
+
             </p> 
         </div>
     </div>
@@ -20,7 +26,7 @@
     <div class="row">
         <div class="col-md-7">
             <p class="paragrafos">
-                Quisque et lacus id tortor pharetra cursus. Vestibulum tristique metus quis ipsum semper, vitae fermentum neque tempus. Aenean eleifend at enim ac pellentesque. Mauris blandit felis vel ultrices tincidunt. Aenean quis euismod lectus. Nulla egestas odio vitae est auctor tristique. Aenean eu maximus ante. Phasellus consectetur eget nibh eget pulvinar. Nam sit amet luctus ex.
+                Todos os ingredientes inclusive os temperos são importados, os queijos são feitos em um pequeno prédio feito especialmente para fabricação de queijo, seguindo todas as normas sanitária inclusive com certificado emitido.
             </p> 
         </div>
         <div class="col-md-5"> <img class="imagens" src="https://i.imgur.com/Fww0dyP.png"></div>
@@ -30,20 +36,29 @@
         <div class="col-md-5"> <img class="imagens" src="https://i.imgur.com/Fww0dyP.png"></div>
         <div class="col-md-7">
             <p class="paragrafos">
-                Quisque et lacus id tortor pharetra cursus. Vestibulum tristique metus quis ipsum semper, vitae fermentum neque tempus. Aenean eleifend at enim ac pellentesque. Mauris blandit felis vel ultrices tincidunt. Aenean quis euismod lectus. Nulla egestas odio vitae est auctor tristique. Aenean eu maximus ante. Phasellus consectetur eget nibh eget pulvinar. Nam sit amet luctus ex.
+                O leite é adquirido de apenas um fornecedor que produz também dentro de condições sanitárias adequadas e fornece um leite de primeira qualidade ,; tudo isto observado nos nossos controles de qualidade de recebimento do leite e registrados para facilitar rastreamentos.
             </p> 
         </div>
     </div>
     <br>
-    <div class="row">
-        <div class="col-md-7">
-            <p class="paragrafos">
-                Quisque et lacus id tortor pharetra cursus. Vestibulum tristique metus quis ipsum semper, vitae fermentum neque tempus. Aenean eleifend at enim ac pellentesque. Mauris blandit felis vel ultrices tincidunt. Aenean quis euismod lectus. Nulla egestas odio vitae est auctor tristique. Aenean eu maximus ante. Phasellus consectetur eget nibh eget pulvinar. Nam sit amet luctus ex.
-            </p> 
-        </div>
-        <div class="col-md-5"> <img class="imagens" src="https://i.imgur.com/Fww0dyP.png"></div>
-    </div>
 </div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
 
 <% include partials/footer %>
          
