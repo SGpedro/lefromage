@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Conv_FREESCPT';
+	src: local('☺'), url('../fonte/FREESCPT.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jumbotron h1, h2, h3, h4{
+    font-family:'Conv_FREESCPT';
+}
+
+h3{
+    font-size: 38px;
+}
+
+h4{
+    font-size: 32px;
+}

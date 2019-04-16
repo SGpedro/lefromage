@@ -23,6 +23,7 @@ h2{
 
 h3{
     font-size: 33px;
+    
 }
 
 h4{
@@ -35,7 +36,7 @@ p{
     margin-left: 68%;
     width: 80%;
     font-family:'Conv_FREESCPT';
-    font-size: 27px;
+    font-size: 30px;
 }
 
 #logo{
@@ -74,11 +75,12 @@ p{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+     
       body {
       background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png");
       background-repeat: no-repeat;
       background-size: 10% 100%;
-      background-position: 20px;
+      background-position: 15px;
       z-index: -1; position:relative;
     }
       @font-face {
@@ -88,4 +90,47 @@ p{
     	font-style: normal;
     }
       
+    #logo{
+        display: block;
+        width: 50%;
+    }
+      
+    h2{
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    hr{
+        height: 12px;
+        border: 0;
+        box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    p{
+        text-align: center;
+        letter-spacing: .05em;
+        width: 80%;
+        font-family:'Conv_FREESCPT';
+        margin-left: 20%;
+        font-size: 35px;
+        line-height: 1;
+    }
+    
+    .botao{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .thumbnail{
+
+        overflow: auto;
+        margin-left: 15%;
+    }
+    
+    h3{
+        margin-left: 15%;
+    }
+    
 }

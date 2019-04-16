@@ -1,6 +1,13 @@
+@font-face {
+	font-family: 'Conv_FREESCPT';
+	src: local('☺'), url('../fonte/FREESCPT.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .jumbotron .parag{
     font-family:'Conv_FREESCPT';
-    font-size: 30px;
+    font-size: 35px;
 }
 
 @media only screen 
