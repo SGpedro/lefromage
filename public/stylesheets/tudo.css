@@ -1,14 +1,20 @@
-@font-face {
-	font-family: 'Conv_FREESCPT';
-	src: local('☺'), url('../fonte/FREESCPT.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
 body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png");
-  background-repeat: no-repeat;
-  background-size: 10% 100%;
-  background-position: 20px;
+      background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png");
+      background-repeat: no-repeat;
+      background-size: 10% 100%;
+      background-position: 20px;
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      @font-face {
+    	font-family: 'Conv_FREESCPT';
+    	src: local('☺'), url('../fonte/FREESCPT.woff') format('woff');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+      
+}

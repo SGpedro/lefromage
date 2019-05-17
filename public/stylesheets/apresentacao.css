@@ -1,3 +1,18 @@
+@font-face {
+	font-family: 'Conv_FREESCPT';
+	src: local('☺'), url('../fonte/FREESCPT.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 70%
+}  
+
 p{
    font-family:'Conv_FREESCPT';
    font-size: 30px;
@@ -7,6 +22,10 @@ p{
     font-size: 30px;
     border-left: 10px solid blue;
     padding-left: 10px;
+}
+
+.slideshow-container{
+    margin-top: 2%;
 }
 
 h1{
@@ -22,8 +41,27 @@ h1{
 }
 
 .paragrafos{
-    margin-top: 60px;
+    
 }
+
+#img_cabramao{
+        margin: auto;
+        width: 70%;
+    
+}
+
+#img_cabra{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    #img_joia{
+        display: block;
+        margin: auto;
+        width: 60%;
+    }
 
 /* CSS PARA TODA A PARTE DE SLIDES COM AS IMAGENS */
 
@@ -53,4 +91,60 @@ h1{
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    
+    hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 70%
+    }
+    
+    p{
+        margin-left: 15%;
+    }
+
+    .paragrafos{
+        margin-top: 30px;
+    }
+
+    #sub-header{
+        border-left: 10px solid white;
+    }
+
+    #img_cabra{
+        display: block;
+        margin: auto;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    #img_joia{
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-top: 20px;
+    }
+    
+    #img_cabramao{
+        margin: auto;
+        width: 70%;
+        margin-left: 20%;
+    }
+    
+    .imagens{
+        display: block;
+        margin: auto;
+        width: 85%;
+        margin-left: 15%
+    }
+    
 }

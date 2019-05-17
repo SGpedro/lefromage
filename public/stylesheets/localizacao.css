@@ -1,5 +1,19 @@
-.jumbotron .parag{
-    font-family:'Conv_FREESCPT';
-    font-size: 30px;
+@font-face {
+	font-family: 'Conv_FREESCPT';
+	src: local('☺'), url('../fonte/FREESCPT.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
+.jumbotron .parag{
+    font-family:'Conv_FREESCPT';
+    font-size: 35px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
